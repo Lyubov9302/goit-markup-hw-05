@@ -357,17 +357,19 @@
     </div>
 
 
-    <div class="subscribe-form">
-    <form class="subscribe-form ">
-      <p class="footer-icons-title subscribe-btn-text">Subscribe</p>
+    <div class="subscribe-form-container">
+    <form name="subscribe-form" class="form-footer">
+      <p class="footer-icons-title subscribe-form-text">Subscribe</p>
+      <div class="subscribe-inputbtn">
       <label>
-        <input type="email" placeholder="E-mail"/>
+        <input class="subscribe-input" type="email" placeholder="E-mail"/>
       </label>
-    <button>Subscribe
+    <button type="button" class="subscribe-btn">Subscribe
       <svg width="24" height="24">
         <use href="./images/icons.svg#icon-suscribe"></use>
       </svg>
     </button>
+  </div>
     </form>
     </div>
       </div>
@@ -376,6 +378,7 @@
 
 <div class="backdrop is-open" data-modal>
 <div class="modal">
+<form name="callback-from" class="form">
 <button type="button" class="modal-close-btn" data-modal-close>
   <svg class="" width="8" height="8">
     <use href="./images/icons.svg#icon-icon-close"></use>
@@ -421,7 +424,7 @@
 </label>
 </div>
 <button type="submit" class="button modal-send-btn">Send</button>
-
+</form>
 </div>
 </div>
 <script src="./js/modal.js"></script>
