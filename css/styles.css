@@ -599,8 +599,33 @@ letter-spacing: 0.04em;
  color: #fff;
   }
 
-.subscribe-form-container {
+.input-icon {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
 
+
+.input-icon:active {
+border: 1px solid #4d5ae5;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+
+
+.textarea {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+}
+
+.textarea::placeholder {
+color: rgba(46, 47, 66, 0.4);
+}
 
 
 
@@ -706,4 +731,8 @@ color: #2e2f42;
     color: #8e8f99;
 }
 
+
+.textarea {
+    height:
+}
 
