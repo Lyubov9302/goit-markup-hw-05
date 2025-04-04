@@ -875,6 +875,14 @@ border-color: #4D5AE5;
         line-height: 1.17; 
         letter-spacing: 0.04em;
         color: #8e8f99;
+        display: flex;
+        align-items: center;
+        a {
+            text-decoration: none;
+            text-decoration-skip-ink: none;
+            color:#4D5AE5;
+        }
+
       }
 
 
@@ -894,7 +902,7 @@ border-color: #4D5AE5;
       .modal-input-check:checked + .modal-check-text {
        width: 30px;
        height: 30px;
-
+      fill: #fafafa;
       }
 
 
