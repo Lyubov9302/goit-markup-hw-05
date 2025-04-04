@@ -817,7 +817,7 @@ margin-bottom: 16px;
 
 
 
-.input-icon-svg {
+.input-iconsvg {
     position: absolute;
     left: 16px;
     top: 50%; 
@@ -825,7 +825,7 @@ margin-bottom: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.input-form:focus.svg {
+.input-form:focus + .input-iconsvg {
     fill: #4D5AE5;
 }
 
@@ -853,7 +853,7 @@ border-color: #4D5AE5;
 }
 
 .checkbox-cont {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 
 }
 
@@ -900,9 +900,13 @@ border-color: #4D5AE5;
         
 
       .modal-input-check:checked + .modal-check-text {
-       width: 30px;
-       height: 30px;
-      fill: #fafafa;
+    
+       background-color: #404bbf; 
+       border: none; 
+      fill: #F4F4FD;
       }
-
+      
+      .modal-link {
+        color:  #4d5ae5;
+      }
 
