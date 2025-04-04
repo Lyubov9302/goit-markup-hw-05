@@ -870,7 +870,7 @@ border-color: #4D5AE5;
         overflow: hidden;
       }
 
-      .accept-label {
+      .modal-check-text {
         font-size: 12px;
         line-height: 1.17; 
         letter-spacing: 0.04em;
@@ -878,7 +878,7 @@ border-color: #4D5AE5;
       }
 
 
-      .accept-label-span {
+      .modal-checkbox {
         width: 16px;
         height: 16px; 
         border: 1px solid rgba(46, 47, 66, 0.4); 
@@ -888,7 +888,13 @@ border-color: #4D5AE5;
          align-items: center; 
          justify-content: center;
          fill: transparent;
+      }  
+        
+
+      .modal-input-check:checked + .modal-check-text {
+       width: 30px;
+       height: 30px;
+
       }
-.modal-checkbox-icon {
-    fill: #FFFFFF;
-}
+
+
