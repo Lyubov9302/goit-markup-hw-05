@@ -796,6 +796,7 @@ margin-bottom: 16px;
 
 .input-icon {
     position: relative;
+    margin-bottom: 16px;
 
 }
 
@@ -821,10 +822,10 @@ margin-bottom: 16px;
     left: 16px;
     top: 50%; 
     transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.input-form:focus. svg {
+.input-form:focus.svg {
     fill: #4D5AE5;
 }
 
@@ -887,5 +888,7 @@ border-color: #4D5AE5;
          align-items: center; 
          justify-content: center;
          fill: transparent;
-         
       }
+.modal-checkbox-icon {
+    fill: #FFFFFF;
+}
