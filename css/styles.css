@@ -753,15 +753,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 fill: #fff;
 }
 
-.button-close:hover,
-.button-close:focus {
- background-color: #404BBF;
- border: none;
-}
-.button-close:hover .button-icon,
-.button-close:focus .button-icon {
- fill: #FFFFFF;
-}
 
 .icon-subscribe-btn {
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
