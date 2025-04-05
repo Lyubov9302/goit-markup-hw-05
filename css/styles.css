@@ -901,12 +901,11 @@ border-color: #4D5AE5;
     
        background-color: #404bbf; 
        border: none; 
+       fill: #F4F4FD;
       }
       
-      .modal-input-check:checked + .modal-check-text > .modal-checkbox > .modal-checkbox-icon {
-      fill: #F4F4FD;
-      }
       
+
       .modal-link {
         color:  #4d5ae5;
       }
