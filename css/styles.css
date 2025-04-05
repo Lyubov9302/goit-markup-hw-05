@@ -801,7 +801,7 @@ margin-bottom: 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-form:focus .icon-svg-input {
+.input-form:focus {
     border-color: #4D5AE5;
 }
 
@@ -813,7 +813,9 @@ margin-bottom: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-
+.input-form:focus + .icon-svg-input {
+    fill: #4D5AE5; 
+}
 
 
 
