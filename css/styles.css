@@ -591,9 +591,6 @@ border: transparent;
 
 }
 
-
-
-
 .icon-subscribe-btn {
     margin-left: 16px;
 
@@ -690,13 +687,11 @@ color: rgba(46, 47, 66, 0.4);
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .backdrop.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
-
 .modal {
 position: absolute;
 top: 50%;
@@ -715,13 +710,12 @@ background-color: #fcfcfc;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 padding: 72px 24px 24px 24px; 
 }
-}
+
 
 
 .backdrop:not(.is-open) .modal {
     transition: translate(-50%, -100%);
 }
-
 
 .modal-close-btn {
 position: absolute;
@@ -746,11 +740,27 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 
+
+
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     background-color: #404bbf;
-    fill: #fff;
     border: none;
+}
+
+.modal-close-btn:hover .button-close-icon,
+.modal-close-btn:focus .button-close-icon {
+fill: #fff;
+}
+
+.button-close:hover,
+.button-close:focus {
+ background-color: #404BBF;
+ border: none;
+}
+.button-close:hover .button-icon,
+.button-close:focus .button-icon {
+ fill: #FFFFFF;
 }
 
 .icon-subscribe-btn {
@@ -759,7 +769,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-field {
 margin-bottom: 8px;
-
 }
 
 
@@ -774,10 +783,6 @@ margin-bottom: 16px;
 }
 
 
-.modal-send-btn {
-
-}
-
 .form-label  {
     font-weight: 400;
     font-size: 12px;
@@ -786,16 +791,12 @@ margin-bottom: 16px;
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
-
 }
-
-
 
 
 .input-icon {
     position: relative;
     margin-bottom: 16px;
-
 }
 
 .input-form {
@@ -813,8 +814,6 @@ margin-bottom: 16px;
     border-color: #4D5AE5;
 }
 
-
-
 .icon-svg-input {
     position: absolute;
     left: 16px;
@@ -824,9 +823,11 @@ margin-bottom: 16px;
 }
 
 .input-form:focus + .icon-svg-input {
-    fill: #4D5AE5;
-   
+    fill: #4D5AE5; 
 }
+
+
+
 
 
 .textarea-comment {
@@ -847,7 +848,6 @@ margin-bottom: 16px;
 
 
 .textarea-comment:focus {
-
 border-color: #4D5AE5; 
 }
 
