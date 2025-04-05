@@ -819,6 +819,7 @@ margin-bottom: 16px;
     position: absolute;
     left: 16px;
     top: 50%; 
+    fill: #2e2f42;
     transform: translateY(-50%);
 }
 
